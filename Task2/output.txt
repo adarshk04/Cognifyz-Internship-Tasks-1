@@ -1,0 +1,24 @@
+Loading dataset...
+Setting up the content-based filtering model...
+
+==================================================
+Evaluating Recommendations for User 1
+Preferences -> Cuisine: 'Italian, Pizza', Price Range: 3
+==================================================
+             Restaurant Name       Cuisines                   City  Price range  Aggregate rating  Match Score
+                      Centro Italian, Pizza             Des Moines            3               4.5          1.0
+              Pizza Di Rocco Italian, Pizza              Abu Dhabi            3               4.4          1.0
+Biaggi's Ristorante Italiano Italian, Pizza Cedar Rapids/Iowa City            3               4.1          1.0
+    Nonna's Pasta & Pizzeria Italian, Pizza             Santa Rosa            3               4.0          1.0
+                PizzaExpress Italian, Pizza                  Noida            3               3.9          1.0
+
+==================================================
+Evaluating Recommendations for User 2
+Preferences -> Cuisine: 'Japanese, Sushi', Price Range: 4
+==================================================
+        Restaurant Name        Cuisines             City  Price range  Aggregate rating  Match Score
+                   Ooma Japanese, Sushi Mandaluyong City            4               4.9          1.0
+                   Nobu Japanese, Sushi           London            4               4.4          1.0
+                  Nagai Japanese, Sushi          Gurgaon            4               4.3          1.0
+                  Guppy Japanese, Sushi        New Delhi            4               4.1          1.0
+MEGU - The Leela Palace Japanese, Sushi        New Delhi            4               3.9          1.0
