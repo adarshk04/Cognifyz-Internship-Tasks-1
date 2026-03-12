@@ -1,0 +1,40 @@
+Starting Restaurant Ratings Prediction Pipeline...
+Dataset loaded. Shape: (9551, 21)
+
+Missing values before handling:
+Longitude               0
+Latitude                0
+Cuisines                9
+Average Cost for two    0
+Has Table booking       0
+Has Online delivery     0
+Is delivering now       0
+Switch to order menu    0
+Price range             0
+Aggregate rating        0
+Votes                   0
+dtype: int64
+
+Data split into training and testing sets. Train shape: (7640, 11), Test shape: (1911, 11)
+
+Training Random Forest Regressor...
+
+Model Performance:
+Mean Squared Error (MSE): 0.0880
+R-squared (R2): 0.9613
+
+Feature Importances:
+                 Feature  Importance
+9                  Votes    0.947476
+0              Longitude    0.018541
+1               Latitude    0.012527
+2               Cuisines    0.010053
+3   Average Cost for two    0.006547
+10        Cuisines Count    0.002125
+5    Has Online delivery    0.001081
+8            Price range    0.001050
+4      Has Table booking    0.000486
+6      Is delivering now    0.000113
+7   Switch to order menu    0.000000
+
+Saved feature_importance.png
